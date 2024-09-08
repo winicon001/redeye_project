@@ -1,0 +1,6 @@
+Invoking command in '/home/winicon/redEye/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/winicon/redEye/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/winicon/redEye/install/my_bot
+Invoked command in '/home/winicon/redEye/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/winicon/redEye/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/winicon/redEye/install/my_bot
+Invoking command in '/home/winicon/redEye/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/winicon/redEye/build/my_bot -- -j4 -l4
+Invoked command in '/home/winicon/redEye/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/winicon/redEye/build/my_bot -- -j4 -l4
+Invoking command in '/home/winicon/redEye/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/winicon/redEye/build/my_bot
+Invoked command in '/home/winicon/redEye/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/winicon/redEye/build/my_bot
