@@ -44,8 +44,10 @@ def enc():
     global enc2count        # Right wheel Total Revolution
     global enc2countTotal   # Right wheel Total Encoder Ticks count
     global enc2_revCount
+    global enc_data
 
-    wheelCircumference = 204                # Wheel Circumference in mm
+
+    wheelCircumference = 215                # Wheel Circumference in mm (changed from 204 to 215)
     EncodercountPerRev = 40                 # Encoder Count Per Wheel Encoder1rotation
     dist_per_tic = wheelCircumference/EncodercountPerRev # Calculating the Encoder1distan
 
@@ -72,16 +74,20 @@ def enc():
         enc2count = 0
     
     Encoder2distance = dist_per_tic * enc2countTotal
+    enc_data = [enc1count, enc1countTotal, enc1_revCount, round(Encoder1distance, 2), enc2count, enc2countTotal, enc2_revCount, round(Encoder2distance, 2)]
 
-    print('   enc1count =  ', enc1count  , end=' ')
-    print('   enc1countTotal =  ', enc1countTotal, end=' ')
-    print('   RevCount_L =  ', enc1_revCount , end= '  ')
-    print('   Encoder1distance =  ', round(Encoder1distance, 2) , 'mm', end= '  ')
+    
 
-    print('   enc2count =  ', enc2count  , end=' ')
-    print('   enc2countTotal =  ', enc2countTotal, end=' ')
-    print('   RevCount_R =  ', enc1_revCount , end= '  ')
-    print('   Encoder2distance =  ', round(Encoder2distance, 2), 'mm')
+    # print('enc1count= ', enc1count  , end=' ')
+    # print('enc1countTotal= ', enc1countTotal, end=' ')
+    # print('RevCount_L= ', enc1_revCount , end= ' ')
+    # print('Encoder1distance= ', round(Encoder1distance, 2) , 'mm', end= '')
+    # print('enc2count= ', enc2count  , end=' ')
+    # print('enc2countTotal= ', enc2countTotal, end=' ')
+    # print('RevCount_R= ', enc2_revCount , end= ' ')
+    # print('Encoder2distance= ', round(Encoder2distance, 2), 'mm')
+
+    return enc_data
 
     #except KeyboardInterrupt: # If CTRL+C is pressed
        # kit.motor1.throttle = 0
@@ -90,4 +96,5 @@ def enc():
 if __name__ == "__main__":
     # init()
     while True:
-        enc()
+        # enc()
+        print(enc(), enc()[0])
