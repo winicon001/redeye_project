@@ -10,7 +10,7 @@ class reading:
             ser.write(user_input.encode())
             data = ser.readline().decode().strip()
             print("Distance =  ", data)
-            return data
+            return datagv
 
     def checkdata():
         arduino_port = '/dev/ttyUSB0'  # Adjust this based on your actual port
