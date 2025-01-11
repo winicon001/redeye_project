@@ -4,22 +4,25 @@ import time
 import RPi.GPIO as GPIO
 import arduinosensorsdata
 
-speed = 100
+speed = 50
+init_yaw = 0
 
 move.setup()
 arduinosensorsdata.reading.checkdata()
 print("Setting up sensors feed...Please wait")
 time.sleep(5)
 
+
 while True:
     # Encoders Readings
 
-    # enc_read_values = encoders.enc()
     arduino_read_values = arduinosensorsdata.reading.checkdata()
     dist = arduino_read_values[0]
     yaw = float(arduino_read_values[1])
     pitch = float(arduino_read_values[2])
     row = float(arduino_read_values[3])
+
+      
 
 
     enc1 = encoders.enc()[0]       # Left Encoder instantaneous 
@@ -30,6 +33,13 @@ while True:
     enc2Total = encoders.enc()[5]  # Right Encoder total ticks count
     Rev_R = encoders.enc()[6]      # Number of Revolutions for Right wheel
     dist_R = encoders.enc()[7]     # Total distance travelled for Right Wheel
+
+    # Sensors Data Processing
+    abs_yaw = abs(yaw)
+    
+    if (dist_L == 0.0 and dist_R == 0.0):
+        init_yaw = abs_yaw
+    true_yaw = round((abs(init_yaw - abs_yaw)), 2)
 
     # Remove String character from Sensor readings from ESP32
     numeric_part = ''.join(char for char in dist if char.isdigit() or char == '.')
@@ -42,7 +52,9 @@ while True:
 
     def data():
         print('obstacle at: ', obstacle_dist, '|', end = ' ')
-        print('Yaw: ', yaw, '| ', end = ' ')
+        print('Yaw:', yaw, '| ', end = ' ')
+        print('abs_Yaw:', abs_yaw, '| ', end = ' ')
+        print('true_Yaw:', true_yaw, '| ', end = ' ')
         print('Pitch: ', pitch, '| ', end = '')
         print('Row: ', row, '| ', end = '')
         print('enc1_', enc1,'| ', end= '')
@@ -55,14 +67,15 @@ while True:
         print('dist_R', dist_R)
 
 
-    
-    if (obstacle_dist <=25.0):
-        if abs(yaw) < 90:
+    # Change obstacle distance based on environmental features
+    if (obstacle_dist <=20.0):
+        while true_yaw < 90:
             move.move(speed, direction = "backward", turn = "left")
             data()
 
     else:
         # move.move(speed, direction = "forward", turn = "")
-        move.move(speed, direction = "backward", turn = "left")
+        init_yaw = true_yaw
+        move.move(speed, direction = "forward", turn = "")
         data()
         
