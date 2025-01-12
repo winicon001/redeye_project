@@ -69,7 +69,7 @@ while True:
 
     # Change obstacle distance based on environmental features
     if (obstacle_dist <=20.0):
-        while true_yaw < 90:
+        if true_yaw < 90:
             move.move(speed, direction = "backward", turn = "left")
             data()
 

@@ -1,0 +1,192 @@
+[0.000000] (-) TimerEvent: {}
+[0.001140] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.001365] (robots_nav_contr) JobQueued: {'identifier': 'robots_nav_contr', 'dependencies': OrderedDict()}
+[0.001639] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.027062] (robots_nav_contr) JobStarted: {'identifier': 'robots_nav_contr'}
+[0.056865] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.059580] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/winicon/redEye/src/my_bot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/winicon/redEye/src/install/my_bot'], 'cwd': '/home/winicon/redEye/src/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'winicon'), ('SSH_CLIENT', '2a00:23cc:c409:1501:7104:6128:5633:5ad0 59075 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/winicon/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/winicon/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/winicon'), ('OLDPWD', '/home/winicon/redEye/src/RobotControl_ws/src'), ('TERM_PROGRAM_VERSION', '1.96.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-52fa82b9-f8e0-4873-83a7-2663505317f0.sock'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/winicon/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/winicon/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'winicon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/winicon/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/remote-cli:/home/winicon/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-60c8bdd405.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/winicon/redEye/src/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '2a00:23cc:c409:1501:7104:6128:5633:5ad0 59075 2a00:23cc:c409:1501:64ee:8a42:9732:705b 22'), ('XDG_DATA_DIRS', '/home/winicon/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098022] (-) TimerEvent: {}
+[0.198854] (-) TimerEvent: {}
+[0.299635] (-) TimerEvent: {}
+[0.400333] (-) TimerEvent: {}
+[0.500983] (-) TimerEvent: {}
+[0.601605] (-) TimerEvent: {}
+[0.702270] (-) TimerEvent: {}
+[0.802894] (-) TimerEvent: {}
+[0.903625] (-) TimerEvent: {}
+[1.004333] (-) TimerEvent: {}
+[1.105048] (-) TimerEvent: {}
+[1.205727] (-) TimerEvent: {}
+[1.306581] (-) TimerEvent: {}
+[1.407248] (-) TimerEvent: {}
+[1.507967] (-) TimerEvent: {}
+[1.608664] (-) TimerEvent: {}
+[1.709395] (-) TimerEvent: {}
+[1.810022] (-) TimerEvent: {}
+[1.910674] (-) TimerEvent: {}
+[2.011413] (-) TimerEvent: {}
+[2.112023] (-) TimerEvent: {}
+[2.212708] (-) TimerEvent: {}
+[2.289190] (my_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.312912] (-) TimerEvent: {}
+[2.413604] (-) TimerEvent: {}
+[2.514291] (-) TimerEvent: {}
+[2.615041] (-) TimerEvent: {}
+[2.715811] (-) TimerEvent: {}
+[2.816980] (-) TimerEvent: {}
+[2.846164] (robots_nav_contr) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/winicon/redEye/src/build/robots_nav_contr/build', '--no-deps', 'symlink_data'], 'cwd': '/home/winicon/redEye/src/build/robots_nav_contr', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'winicon', 'SSH_CLIENT': '2a00:23cc:c409:1501:7104:6128:5633:5ad0 59075 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/winicon/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/winicon/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/winicon', 'OLDPWD': '/home/winicon/redEye/src/RobotControl_ws/src', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-52fa82b9-f8e0-4873-83a7-2663505317f0.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'VSCODE_GIT_ASKPASS_MAIN': '/home/winicon/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/winicon/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'UBUNTU_MENUPROXY': '1', 'ROS_DISTRO': 'humble', 'LOGNAME': 'winicon', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/winicon/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/remote-cli:/home/winicon/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-60c8bdd405.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/winicon/redEye/src/build/robots_nav_contr', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '2a00:23cc:c409:1501:7104:6128:5633:5ad0 59075 2a00:23cc:c409:1501:64ee:8a42:9732:705b 22', 'XDG_DATA_DIRS': '/home/winicon/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/winicon/redEye/src/build/robots_nav_contr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/winicon/redEye/src/install/robots_nav_contr/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.917128] (-) TimerEvent: {}
+[3.017784] (-) TimerEvent: {}
+[3.118495] (-) TimerEvent: {}
+[3.219243] (-) TimerEvent: {}
+[3.319889] (-) TimerEvent: {}
+[3.420516] (-) TimerEvent: {}
+[3.521152] (-) TimerEvent: {}
+[3.621826] (-) TimerEvent: {}
+[3.722463] (-) TimerEvent: {}
+[3.823174] (-) TimerEvent: {}
+[3.923829] (-) TimerEvent: {}
+[4.010937] (robots_nav_contr) StdoutLine: {'line': b'running develop\n'}
+[4.023967] (-) TimerEvent: {}
+[4.124586] (-) TimerEvent: {}
+[4.225225] (-) TimerEvent: {}
+[4.325922] (-) TimerEvent: {}
+[4.426613] (-) TimerEvent: {}
+[4.527551] (-) TimerEvent: {}
+[4.608712] (my_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.627696] (-) TimerEvent: {}
+[4.659167] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.727854] (-) TimerEvent: {}
+[4.828863] (-) TimerEvent: {}
+[4.883956] (robots_nav_contr) StdoutLine: {'line': b'running egg_info\n'}
+[4.884562] (robots_nav_contr) StdoutLine: {'line': b'creating robots_nav_contr.egg-info\n'}
+[4.885083] (robots_nav_contr) StdoutLine: {'line': b'writing robots_nav_contr.egg-info/PKG-INFO\n'}
+[4.886117] (robots_nav_contr) StdoutLine: {'line': b'writing dependency_links to robots_nav_contr.egg-info/dependency_links.txt\n'}
+[4.886855] (robots_nav_contr) StdoutLine: {'line': b'writing entry points to robots_nav_contr.egg-info/entry_points.txt\n'}
+[4.887517] (robots_nav_contr) StdoutLine: {'line': b'writing requirements to robots_nav_contr.egg-info/requires.txt\n'}
+[4.888068] (robots_nav_contr) StdoutLine: {'line': b'writing top-level names to robots_nav_contr.egg-info/top_level.txt\n'}
+[4.888923] (robots_nav_contr) StdoutLine: {'line': b"writing manifest file 'robots_nav_contr.egg-info/SOURCES.txt'\n"}
+[4.897216] (robots_nav_contr) StdoutLine: {'line': b"reading manifest file 'robots_nav_contr.egg-info/SOURCES.txt'\n"}
+[4.900996] (robots_nav_contr) StdoutLine: {'line': b"writing manifest file 'robots_nav_contr.egg-info/SOURCES.txt'\n"}
+[4.908043] (robots_nav_contr) StdoutLine: {'line': b'running build_ext\n'}
+[4.908934] (robots_nav_contr) StdoutLine: {'line': b'Creating /home/winicon/redEye/src/install/robots_nav_contr/lib/python3.10/site-packages/robots-nav-contr.egg-link (link to .)\n'}
+[4.913080] (robots_nav_contr) StdoutLine: {'line': b'Installing redeye_commands script to /home/winicon/redEye/src/install/robots_nav_contr/lib/robots_nav_contr\n'}
+[4.914081] (robots_nav_contr) StdoutLine: {'line': b'Installing robot_command_receiver script to /home/winicon/redEye/src/install/robots_nav_contr/lib/robots_nav_contr\n'}
+[4.914919] (robots_nav_contr) StdoutLine: {'line': b'Installing robots_nav_controller script to /home/winicon/redEye/src/install/robots_nav_contr/lib/robots_nav_contr\n'}
+[4.917039] (robots_nav_contr) StdoutLine: {'line': b'Installing robots_serial_commands script to /home/winicon/redEye/src/install/robots_nav_contr/lib/robots_nav_contr\n'}
+[4.918631] (robots_nav_contr) StdoutLine: {'line': b'\n'}
+[4.919650] (robots_nav_contr) StdoutLine: {'line': b'Installed /home/winicon/redEye/src/build/robots_nav_contr\n'}
+[4.920490] (robots_nav_contr) StdoutLine: {'line': b'running symlink_data\n'}
+[4.921195] (robots_nav_contr) StdoutLine: {'line': b'creating /home/winicon/redEye/src/install/robots_nav_contr/share/ament_index\n'}
+[4.922414] (robots_nav_contr) StdoutLine: {'line': b'creating /home/winicon/redEye/src/install/robots_nav_contr/share/ament_index/resource_index\n'}
+[4.923408] (robots_nav_contr) StdoutLine: {'line': b'creating /home/winicon/redEye/src/install/robots_nav_contr/share/ament_index/resource_index/packages\n'}
+[4.924336] (robots_nav_contr) StdoutLine: {'line': b'symbolically linking /home/winicon/redEye/src/build/robots_nav_contr/resource/robots_nav_contr -> /home/winicon/redEye/src/install/robots_nav_contr/share/ament_index/resource_index/packages\n'}
+[4.925278] (robots_nav_contr) StdoutLine: {'line': b'symbolically linking /home/winicon/redEye/src/build/robots_nav_contr/package.xml -> /home/winicon/redEye/src/install/robots_nav_contr/share/robots_nav_contr\n'}
+[4.929140] (-) TimerEvent: {}
+[5.031454] (-) TimerEvent: {}
+[5.096630] (robots_nav_contr) CommandEnded: {'returncode': 0}
+[5.131812] (-) TimerEvent: {}
+[5.164418] (robots_nav_contr) JobEnded: {'identifier': 'robots_nav_contr', 'rc': 0}
+[5.188150] (my_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.216778] (my_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.220358] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.223444] (my_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.232028] (-) TimerEvent: {}
+[5.240036] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.332260] (-) TimerEvent: {}
+[5.433016] (-) TimerEvent: {}
+[5.533843] (-) TimerEvent: {}
+[5.635092] (-) TimerEvent: {}
+[5.649902] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.676876] (my_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.677829] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.679644] (my_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.716616] (my_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.735279] (-) TimerEvent: {}
+[5.835918] (-) TimerEvent: {}
+[5.936731] (-) TimerEvent: {}
+[6.037825] (-) TimerEvent: {}
+[6.138491] (-) TimerEvent: {}
+[6.239190] (-) TimerEvent: {}
+[6.339837] (-) TimerEvent: {}
+[6.440532] (-) TimerEvent: {}
+[6.524351] (my_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.540810] (-) TimerEvent: {}
+[6.641581] (-) TimerEvent: {}
+[6.742229] (-) TimerEvent: {}
+[6.836164] (my_bot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[6.842405] (-) TimerEvent: {}
+[6.943168] (-) TimerEvent: {}
+[7.043857] (-) TimerEvent: {}
+[7.140069] (my_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.144003] (-) TimerEvent: {}
+[7.244717] (-) TimerEvent: {}
+[7.345374] (-) TimerEvent: {}
+[7.446110] (-) TimerEvent: {}
+[7.546763] (-) TimerEvent: {}
+[7.622598] (my_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.646921] (-) TimerEvent: {}
+[7.691328] (my_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.700926] (my_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.707367] (my_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.744649] (my_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.747080] (-) TimerEvent: {}
+[7.755250] (my_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.775209] (my_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[7.782213] (my_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/winicon/redEye/src/build/my_bot\n'}
+[7.800825] (my_bot) CommandEnded: {'returncode': 0}
+[7.802509] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[7.804813] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/winicon/redEye/src/build/my_bot', '--', '-j4', '-l4'], 'cwd': '/home/winicon/redEye/src/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'winicon'), ('SSH_CLIENT', '2a00:23cc:c409:1501:7104:6128:5633:5ad0 59075 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/winicon/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/winicon/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/winicon'), ('OLDPWD', '/home/winicon/redEye/src/RobotControl_ws/src'), ('TERM_PROGRAM_VERSION', '1.96.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-52fa82b9-f8e0-4873-83a7-2663505317f0.sock'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/winicon/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/winicon/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'winicon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/winicon/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/remote-cli:/home/winicon/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-60c8bdd405.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/winicon/redEye/src/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '2a00:23cc:c409:1501:7104:6128:5633:5ad0 59075 2a00:23cc:c409:1501:64ee:8a42:9732:705b 22'), ('XDG_DATA_DIRS', '/home/winicon/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.847363] (-) TimerEvent: {}
+[7.948736] (-) TimerEvent: {}
+[7.952636] (my_bot) CommandEnded: {'returncode': 0}
+[7.954742] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[7.990228] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/winicon/redEye/src/build/my_bot'], 'cwd': '/home/winicon/redEye/src/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'winicon'), ('SSH_CLIENT', '2a00:23cc:c409:1501:7104:6128:5633:5ad0 59075 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/winicon/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/winicon/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/winicon'), ('OLDPWD', '/home/winicon/redEye/src/RobotControl_ws/src'), ('TERM_PROGRAM_VERSION', '1.96.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-52fa82b9-f8e0-4873-83a7-2663505317f0.sock'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/winicon/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/winicon/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('UBUNTU_MENUPROXY', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'winicon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/winicon/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/remote-cli:/home/winicon/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-60c8bdd405.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/winicon/redEye/src/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '2a00:23cc:c409:1501:7104:6128:5633:5ad0 59075 2a00:23cc:c409:1501:64ee:8a42:9732:705b 22'), ('XDG_DATA_DIRS', '/home/winicon/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.023880] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.025408] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.027781] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[8.048911] (-) TimerEvent: {}
+[8.058363] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/config/my_controllers.yaml\n'}
+[8.089442] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/config/rvis_config01.rviz\n'}
+[8.119966] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/config/rviz_config02.rviz\n'}
+[8.149097] (-) TimerEvent: {}
+[8.153620] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/description/camera.xacro\n'}
+[8.184105] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[8.214696] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[8.245771] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/description/lidar.xacro\n'}
+[8.254166] (-) TimerEvent: {}
+[8.277137] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[8.308740] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[8.339225] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/description/ros2_control.xacro\n'}
+[8.354483] (-) TimerEvent: {}
+[8.371526] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[8.402943] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[8.435675] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/worlds/cafe.world\n'}
+[8.454855] (-) TimerEvent: {}
+[8.466859] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/worlds/construction.world\n'}
+[8.497086] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[8.528089] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/worlds/robotSpace.world\n'}
+[8.555030] (-) TimerEvent: {}
+[8.559856] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[8.591560] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[8.623572] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[8.655237] (-) TimerEvent: {}
+[8.655903] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[8.687191] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/environment/path.sh\n'}
+[8.717867] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[8.750159] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/local_setup.bash\n'}
+[8.755401] (-) TimerEvent: {}
+[8.782392] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/local_setup.sh\n'}
+[8.813735] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[8.845510] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[8.855580] (-) TimerEvent: {}
+[8.877865] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/package.dsv\n'}
+[8.909226] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[8.941191] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[8.955763] (-) TimerEvent: {}
+[8.973894] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[9.005393] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/package.xml\n'}
+[9.041512] (my_bot) CommandEnded: {'returncode': 0}
+[9.056020] (-) TimerEvent: {}
+[9.104521] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[9.107300] (-) EventReactorShutdown: {}

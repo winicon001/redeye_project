@@ -1,0 +1,64 @@
+[0.061s] Invoking command in '/home/winicon/redEye/src/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/winicon/redEye/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/winicon/redEye/src/install/my_bot
+[2.288s] -- The C compiler identification is GNU 11.4.0
+[4.607s] -- The CXX compiler identification is GNU 11.4.0
+[4.658s] -- Detecting C compiler ABI info
+[5.187s] -- Detecting C compiler ABI info - done
+[5.215s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.219s] -- Detecting C compile features
+[5.222s] -- Detecting C compile features - done
+[5.239s] -- Detecting CXX compiler ABI info
+[5.649s] -- Detecting CXX compiler ABI info - done
+[5.676s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.676s] -- Detecting CXX compile features
+[5.678s] -- Detecting CXX compile features - done
+[5.715s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.523s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.835s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.139s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.621s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.690s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.700s] -- Added test 'lint_cmake' to check CMake code style
+[7.706s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.743s] -- Added test 'xmllint' to check XML markup files
+[7.754s] -- Configuring done
+[7.774s] -- Generating done
+[7.781s] -- Build files have been written to: /home/winicon/redEye/src/build/my_bot
+[7.800s] Invoked command in '/home/winicon/redEye/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/winicon/redEye/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/winicon/redEye/src/install/my_bot
+[7.809s] Invoking command in '/home/winicon/redEye/src/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/winicon/redEye/src/build/my_bot -- -j4 -l4
+[7.952s] Invoked command in '/home/winicon/redEye/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/winicon/redEye/src/build/my_bot -- -j4 -l4
+[7.994s] Invoking command in '/home/winicon/redEye/src/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/winicon/redEye/src/build/my_bot
+[8.023s] -- Install configuration: ""
+[8.024s] -- Execute custom install script
+[8.026s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/config/empty.yaml
+[8.057s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/config/my_controllers.yaml
+[8.088s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/config/rvis_config01.rviz
+[8.119s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/config/rviz_config02.rviz
+[8.152s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/description/camera.xacro
+[8.183s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[8.213s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[8.252s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/description/lidar.xacro
+[8.276s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[8.307s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/description/robot_core.xacro
+[8.338s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/description/ros2_control.xacro
+[8.370s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[8.402s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/launch/rsp.launch.py
+[8.434s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/worlds/cafe.world
+[8.466s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/worlds/construction.world
+[8.496s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/worlds/empty.world
+[8.527s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/worlds/robotSpace.world
+[8.558s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[8.590s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[8.622s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[8.655s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[8.686s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/environment/path.sh
+[8.717s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/environment/path.dsv
+[8.749s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/local_setup.bash
+[8.781s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/local_setup.sh
+[8.812s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/local_setup.zsh
+[8.844s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/local_setup.dsv
+[8.877s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/package.dsv
+[8.908s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[8.940s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[8.973s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[9.004s] -- Symlinking: /home/winicon/redEye/src/install/my_bot/share/my_bot/package.xml
+[9.042s] Invoked command in '/home/winicon/redEye/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/winicon/redEye/src/build/my_bot

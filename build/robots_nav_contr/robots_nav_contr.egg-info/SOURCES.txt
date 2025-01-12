@@ -2,11 +2,13 @@ package.xml
 setup.cfg
 setup.py
 resource/robots_nav_contr
-robots_nav_contr/ModulesTest.py
+robots_nav_contr/MainRoutine.py
 robots_nav_contr/ObjectDetection.py
 robots_nav_contr/RobotMain.py
 robots_nav_contr/__init__.py
+robots_nav_contr/arduinosensorsdata.py
 robots_nav_contr/blink.py
+robots_nav_contr/encoders copy.py
 robots_nav_contr/encoders.py
 robots_nav_contr/findline.py
 robots_nav_contr/gpiochecks.py

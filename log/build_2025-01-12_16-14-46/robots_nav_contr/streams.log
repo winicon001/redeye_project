@@ -1,0 +1,20 @@
+[3.049s] Invoking command in '/home/winicon/redEye/build/robots_nav_contr': PYTHONPATH=/home/winicon/redEye/build/robots_nav_contr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/winicon/redEye/build/robots_nav_contr/build --no-deps symlink_data
+[4.220s] running develop
+[5.021s] running egg_info
+[5.022s] writing robots_nav_contr.egg-info/PKG-INFO
+[5.023s] writing dependency_links to robots_nav_contr.egg-info/dependency_links.txt
+[5.024s] writing entry points to robots_nav_contr.egg-info/entry_points.txt
+[5.025s] writing requirements to robots_nav_contr.egg-info/requires.txt
+[5.025s] writing top-level names to robots_nav_contr.egg-info/top_level.txt
+[5.034s] reading manifest file 'robots_nav_contr.egg-info/SOURCES.txt'
+[5.098s] writing manifest file 'robots_nav_contr.egg-info/SOURCES.txt'
+[5.105s] running build_ext
+[5.106s] Creating /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots-nav-contr.egg-link (link to .)
+[5.110s] Installing redeye_commands script to /home/winicon/redEye/install/robots_nav_contr/lib/robots_nav_contr
+[5.110s] Installing robot_command_receiver script to /home/winicon/redEye/install/robots_nav_contr/lib/robots_nav_contr
+[5.112s] Installing robots_nav_controller script to /home/winicon/redEye/install/robots_nav_contr/lib/robots_nav_contr
+[5.112s] Installing robots_serial_commands script to /home/winicon/redEye/install/robots_nav_contr/lib/robots_nav_contr
+[5.114s] 
+[5.114s] Installed /home/winicon/redEye/build/robots_nav_contr
+[5.115s] running symlink_data
+[5.252s] Invoked command in '/home/winicon/redEye/build/robots_nav_contr' returned '0': PYTHONPATH=/home/winicon/redEye/build/robots_nav_contr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/winicon/redEye/build/robots_nav_contr/build --no-deps symlink_data
