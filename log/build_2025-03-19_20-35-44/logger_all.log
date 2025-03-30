@@ -1,0 +1,306 @@
+[1.631s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.632s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff7e8fffa0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7eaed3f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7eaed3f0>>)
+[3.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.312s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/winicon/redEye'
+[3.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.315s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.474s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.474s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.474s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.475s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.475s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.475s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.476s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.476s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.476s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.477s] Level 1:colcon.colcon_core.package_identification:_identify(sketch_sep01a) by extensions ['ignore', 'ignore_ament_install']
+[3.477s] Level 1:colcon.colcon_core.package_identification:_identify(sketch_sep01a) by extension 'ignore'
+[3.477s] Level 1:colcon.colcon_core.package_identification:_identify(sketch_sep01a) by extension 'ignore_ament_install'
+[3.478s] Level 1:colcon.colcon_core.package_identification:_identify(sketch_sep01a) by extensions ['colcon_pkg']
+[3.478s] Level 1:colcon.colcon_core.package_identification:_identify(sketch_sep01a) by extension 'colcon_pkg'
+[3.478s] Level 1:colcon.colcon_core.package_identification:_identify(sketch_sep01a) by extensions ['colcon_meta']
+[3.478s] Level 1:colcon.colcon_core.package_identification:_identify(sketch_sep01a) by extension 'colcon_meta'
+[3.478s] Level 1:colcon.colcon_core.package_identification:_identify(sketch_sep01a) by extensions ['ros']
+[3.478s] Level 1:colcon.colcon_core.package_identification:_identify(sketch_sep01a) by extension 'ros'
+[3.479s] Level 1:colcon.colcon_core.package_identification:_identify(sketch_sep01a) by extensions ['cmake', 'python']
+[3.479s] Level 1:colcon.colcon_core.package_identification:_identify(sketch_sep01a) by extension 'cmake'
+[3.479s] Level 1:colcon.colcon_core.package_identification:_identify(sketch_sep01a) by extension 'python'
+[3.479s] Level 1:colcon.colcon_core.package_identification:_identify(sketch_sep01a) by extensions ['python_setup_py']
+[3.479s] Level 1:colcon.colcon_core.package_identification:_identify(sketch_sep01a) by extension 'python_setup_py'
+[3.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.480s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.481s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws) by extensions ['ignore', 'ignore_ament_install']
+[3.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws) by extension 'ignore'
+[3.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws) by extension 'ignore_ament_install'
+[3.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws) by extensions ['colcon_pkg']
+[3.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws) by extension 'colcon_pkg'
+[3.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws) by extensions ['colcon_meta']
+[3.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws) by extension 'colcon_meta'
+[3.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws) by extensions ['ros']
+[3.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws) by extension 'ros'
+[3.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws) by extensions ['cmake', 'python']
+[3.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws) by extension 'cmake'
+[3.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws) by extension 'python'
+[3.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws) by extensions ['python_setup_py']
+[3.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws) by extension 'python_setup_py'
+[3.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[3.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/build) by extension 'ignore'
+[3.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/build) ignored
+[3.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[3.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/install) by extension 'ignore'
+[3.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/install) ignored
+[3.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[3.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/log) by extension 'ignore'
+[3.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/log) ignored
+[3.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[3.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src) by extension 'ignore'
+[3.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src) by extension 'ignore_ament_install'
+[3.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src) by extensions ['colcon_pkg']
+[3.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src) by extension 'colcon_pkg'
+[3.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src) by extensions ['colcon_meta']
+[3.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src) by extension 'colcon_meta'
+[3.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src) by extensions ['ros']
+[3.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src) by extension 'ros'
+[3.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src) by extensions ['cmake', 'python']
+[3.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src) by extension 'cmake'
+[3.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src) by extension 'python'
+[3.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src) by extensions ['python_setup_py']
+[3.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src) by extension 'python_setup_py'
+[3.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src/build) by extensions ['ignore', 'ignore_ament_install']
+[3.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src/build) by extension 'ignore'
+[3.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src/build) ignored
+[3.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src/install) by extensions ['ignore', 'ignore_ament_install']
+[3.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src/install) by extension 'ignore'
+[3.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src/install) ignored
+[3.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src/log) by extensions ['ignore', 'ignore_ament_install']
+[3.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src/log) by extension 'ignore'
+[3.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src/log) ignored
+[3.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src/robots_nav_contr) by extensions ['ignore', 'ignore_ament_install']
+[3.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src/robots_nav_contr) by extension 'ignore'
+[3.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src/robots_nav_contr) by extension 'ignore_ament_install'
+[3.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src/robots_nav_contr) by extensions ['colcon_pkg']
+[3.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src/robots_nav_contr) by extension 'colcon_pkg'
+[3.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src/robots_nav_contr) by extensions ['colcon_meta']
+[3.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src/robots_nav_contr) by extension 'colcon_meta'
+[3.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src/robots_nav_contr) by extensions ['ros']
+[3.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/RobotControl_ws/src/robots_nav_contr) by extension 'ros'
+[3.511s] DEBUG:colcon.colcon_core.package_identification:Package 'src/RobotControl_ws/src/robots_nav_contr' with type 'ros.ament_python' and name 'robots_nav_contr'
+[3.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[3.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'ignore'
+[3.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'ignore_ament_install'
+[3.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['colcon_pkg']
+[3.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'colcon_pkg'
+[3.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['colcon_meta']
+[3.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'colcon_meta'
+[3.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['ros']
+[3.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'ros'
+[3.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['cmake', 'python']
+[3.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'cmake'
+[3.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'python'
+[3.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['python_setup_py']
+[3.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'python_setup_py'
+[3.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive) by extensions ['ignore', 'ignore_ament_install']
+[3.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive) by extension 'ignore'
+[3.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive) by extension 'ignore_ament_install'
+[3.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive) by extensions ['colcon_pkg']
+[3.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive) by extension 'colcon_pkg'
+[3.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive) by extensions ['colcon_meta']
+[3.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive) by extension 'colcon_meta'
+[3.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive) by extensions ['ros']
+[3.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive) by extension 'ros'
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive) by extensions ['cmake', 'python']
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive) by extension 'cmake'
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive) by extension 'python'
+[3.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive) by extensions ['python_setup_py']
+[3.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive) by extension 'python_setup_py'
+[3.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[3.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive/__pycache__) by extension 'ignore'
+[3.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive/__pycache__) by extension 'ignore_ament_install'
+[3.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive/__pycache__) by extensions ['colcon_pkg']
+[3.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive/__pycache__) by extension 'colcon_pkg'
+[3.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive/__pycache__) by extensions ['colcon_meta']
+[3.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive/__pycache__) by extension 'colcon_meta'
+[3.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive/__pycache__) by extensions ['ros']
+[3.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive/__pycache__) by extension 'ros'
+[3.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive/__pycache__) by extensions ['cmake', 'python']
+[3.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive/__pycache__) by extension 'cmake'
+[3.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive/__pycache__) by extension 'python'
+[3.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive/__pycache__) by extensions ['python_setup_py']
+[3.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/archive/__pycache__) by extension 'python_setup_py'
+[3.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[3.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[3.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[3.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[3.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[3.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[3.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[3.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[3.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[3.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ignore', 'ignore_ament_install']
+[3.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore'
+[3.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore_ament_install'
+[3.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_pkg']
+[3.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_pkg'
+[3.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_meta']
+[3.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_meta'
+[3.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ros']
+[3.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ros'
+[3.531s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_bot' with type 'ros.ament_cmake' and name 'my_bot'
+[3.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.713s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/winicon/redEye/src/RobotControl_ws/install
+[3.716s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/winicon/redEye/install
+[3.726s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[3.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.936s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_args' from command line to 'None'
+[3.936s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target' from command line to 'None'
+[3.936s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.936s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[3.936s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_first' from command line to 'False'
+[3.936s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_force_configure' from command line to 'False'
+[3.937s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'ament_cmake_args' from command line to 'None'
+[3.937s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[3.937s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.937s] DEBUG:colcon.colcon_core.verb:Building package 'my_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/winicon/redEye/build/my_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/winicon/redEye/install/my_bot', 'merge_install': False, 'path': '/home/winicon/redEye/src/my_bot', 'symlink_install': False, 'test_result_base': None}
+[3.938s] Level 5:colcon.colcon_core.verb:set package 'robots_nav_contr' build argument 'cmake_args' from command line to 'None'
+[3.939s] Level 5:colcon.colcon_core.verb:set package 'robots_nav_contr' build argument 'cmake_target' from command line to 'None'
+[3.939s] Level 5:colcon.colcon_core.verb:set package 'robots_nav_contr' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.939s] Level 5:colcon.colcon_core.verb:set package 'robots_nav_contr' build argument 'cmake_clean_cache' from command line to 'False'
+[3.939s] Level 5:colcon.colcon_core.verb:set package 'robots_nav_contr' build argument 'cmake_clean_first' from command line to 'False'
+[3.939s] Level 5:colcon.colcon_core.verb:set package 'robots_nav_contr' build argument 'cmake_force_configure' from command line to 'False'
+[3.939s] Level 5:colcon.colcon_core.verb:set package 'robots_nav_contr' build argument 'ament_cmake_args' from command line to 'None'
+[3.939s] Level 5:colcon.colcon_core.verb:set package 'robots_nav_contr' build argument 'catkin_cmake_args' from command line to 'None'
+[3.939s] Level 5:colcon.colcon_core.verb:set package 'robots_nav_contr' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.940s] DEBUG:colcon.colcon_core.verb:Building package 'robots_nav_contr' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/winicon/redEye/build/robots_nav_contr', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/winicon/redEye/install/robots_nav_contr', 'merge_install': False, 'path': '/home/winicon/redEye/src/RobotControl_ws/src/robots_nav_contr', 'symlink_install': False, 'test_result_base': None}
+[3.940s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.943s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.944s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/winicon/redEye/src/my_bot' with build type 'ament_cmake'
+[3.945s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/winicon/redEye/src/my_bot'
+[3.967s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.968s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.969s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.992s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/winicon/redEye/src/RobotControl_ws/src/robots_nav_contr' with build type 'ament_python'
+[3.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('robots_nav_contr', 'ament_prefix_path')
+[3.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/redEye/install/robots_nav_contr/share/robots_nav_contr/hook/ament_prefix_path.ps1'
+[3.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/winicon/redEye/install/robots_nav_contr/share/robots_nav_contr/hook/ament_prefix_path.dsv'
+[4.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/redEye/install/robots_nav_contr/share/robots_nav_contr/hook/ament_prefix_path.sh'
+[4.008s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.008s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/winicon/redEye/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/redEye/src/RobotControl_ws/install/robots_navigationController:/home/winicon/redEye/src/RobotControl_ws/install/robots_nav_contr:/home/winicon/redEye/install/robots_nav_contr:/opt/ros/humble /usr/bin/cmake /home/winicon/redEye/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/winicon/redEye/install/my_bot
+[5.368s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/winicon/redEye/src/RobotControl_ws/src/robots_nav_contr'
+[5.369s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/winicon/redEye/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/redEye/src/RobotControl_ws/install/robots_navigationController:/home/winicon/redEye/src/RobotControl_ws/install/robots_nav_contr:/home/winicon/redEye/install/robots_nav_contr:/opt/ros/humble /usr/bin/cmake /home/winicon/redEye/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/winicon/redEye/install/my_bot
+[6.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/winicon/redEye/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/redEye/src/RobotControl_ws/install/robots_navigationController:/home/winicon/redEye/src/RobotControl_ws/install/robots_nav_contr:/home/winicon/redEye/install/robots_nav_contr:/opt/ros/humble /usr/bin/cmake --build /home/winicon/redEye/build/my_bot -- -j4 -l4
+[6.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/winicon/redEye/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/redEye/src/RobotControl_ws/install/robots_navigationController:/home/winicon/redEye/src/RobotControl_ws/install/robots_nav_contr:/home/winicon/redEye/install/robots_nav_contr:/opt/ros/humble /usr/bin/cmake --build /home/winicon/redEye/build/my_bot -- -j4 -l4
+[6.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/winicon/redEye/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/redEye/src/RobotControl_ws/install/robots_navigationController:/home/winicon/redEye/src/RobotControl_ws/install/robots_nav_contr:/home/winicon/redEye/install/robots_nav_contr:/opt/ros/humble /usr/bin/cmake --install /home/winicon/redEye/build/my_bot
+[6.878s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[6.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/winicon/redEye/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/winicon/redEye/src/RobotControl_ws/install/robots_navigationController:/home/winicon/redEye/src/RobotControl_ws/install/robots_nav_contr:/home/winicon/redEye/install/robots_nav_contr:/opt/ros/humble /usr/bin/cmake --install /home/winicon/redEye/build/my_bot
+[6.906s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/redEye/install/my_bot' for CMake module files
+[6.909s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/redEye/install/my_bot' for CMake config files
+[6.912s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[6.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/redEye/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[6.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/winicon/redEye/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[6.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/redEye/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[6.920s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/redEye/install/my_bot/bin'
+[6.921s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/redEye/install/my_bot/lib/pkgconfig/my_bot.pc'
+[6.922s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/redEye/install/my_bot/lib/python3.10/site-packages'
+[6.923s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/redEye/install/my_bot/bin'
+[6.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/redEye/install/my_bot/share/my_bot/package.ps1'
+[6.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/winicon/redEye/install/my_bot/share/my_bot/package.dsv'
+[6.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/redEye/install/my_bot/share/my_bot/package.sh'
+[6.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/redEye/install/my_bot/share/my_bot/package.bash'
+[6.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/redEye/install/my_bot/share/my_bot/package.zsh'
+[6.964s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/winicon/redEye/install/my_bot/share/colcon-core/packages/my_bot)
+[6.967s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[6.968s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/redEye/install/my_bot' for CMake module files
+[6.972s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/redEye/install/my_bot' for CMake config files
+[6.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[6.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/redEye/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[6.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/winicon/redEye/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[6.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/redEye/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[6.982s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/redEye/install/my_bot/bin'
+[6.983s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/redEye/install/my_bot/lib/pkgconfig/my_bot.pc'
+[6.984s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/redEye/install/my_bot/lib/python3.10/site-packages'
+[6.985s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/redEye/install/my_bot/bin'
+[6.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/redEye/install/my_bot/share/my_bot/package.ps1'
+[6.989s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/winicon/redEye/install/my_bot/share/my_bot/package.dsv'
+[6.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/redEye/install/my_bot/share/my_bot/package.sh'
+[6.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/redEye/install/my_bot/share/my_bot/package.bash'
+[6.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/redEye/install/my_bot/share/my_bot/package.zsh'
+[6.998s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/winicon/redEye/install/my_bot/share/colcon-core/packages/my_bot)
+[7.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/winicon/redEye/build/robots_nav_contr': PYTHONPATH=/home/winicon/redEye/build/robots_nav_contr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/winicon/redEye/build/robots_nav_contr/build
+[9.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/winicon/redEye/build/robots_nav_contr' returned '0': PYTHONPATH=/home/winicon/redEye/build/robots_nav_contr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/winicon/redEye/build/robots_nav_contr/build
+[9.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/winicon/redEye/src/RobotControl_ws/src/robots_nav_contr': PYTHONPATH=/home/winicon/redEye/build/robots_nav_contr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/robots_nav_contr build --build-base /home/winicon/redEye/build/robots_nav_contr/build install --record /home/winicon/redEye/build/robots_nav_contr/install.log --single-version-externally-managed install_data --force
+[11.155s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/redEye/install/robots_nav_contr' for CMake module files
+[11.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/winicon/redEye/src/RobotControl_ws/src/robots_nav_contr' returned '0': PYTHONPATH=/home/winicon/redEye/build/robots_nav_contr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/robots_nav_contr build --build-base /home/winicon/redEye/build/robots_nav_contr/build install --record /home/winicon/redEye/build/robots_nav_contr/install.log --single-version-externally-managed install_data --force
+[11.159s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/redEye/install/robots_nav_contr' for CMake config files
+[11.163s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/redEye/install/robots_nav_contr/lib'
+[11.165s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/redEye/install/robots_nav_contr/bin'
+[11.165s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/redEye/install/robots_nav_contr/lib/pkgconfig/robots_nav_contr.pc'
+[11.166s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages'
+[11.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('robots_nav_contr', 'pythonpath')
+[11.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/redEye/install/robots_nav_contr/share/robots_nav_contr/hook/pythonpath.ps1'
+[11.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/winicon/redEye/install/robots_nav_contr/share/robots_nav_contr/hook/pythonpath.dsv'
+[11.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/winicon/redEye/install/robots_nav_contr/share/robots_nav_contr/hook/pythonpath.sh'
+[11.175s] Level 1:colcon.colcon_core.environment:checking '/home/winicon/redEye/install/robots_nav_contr/bin'
+[11.176s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robots_nav_contr)
+[11.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/redEye/install/robots_nav_contr/share/robots_nav_contr/package.ps1'
+[11.180s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/winicon/redEye/install/robots_nav_contr/share/robots_nav_contr/package.dsv'
+[11.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/redEye/install/robots_nav_contr/share/robots_nav_contr/package.sh'
+[11.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/redEye/install/robots_nav_contr/share/robots_nav_contr/package.bash'
+[11.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/winicon/redEye/install/robots_nav_contr/share/robots_nav_contr/package.zsh'
+[11.188s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/winicon/redEye/install/robots_nav_contr/share/colcon-core/packages/robots_nav_contr)
+[11.189s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.190s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.191s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.191s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.221s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.222s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.222s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.401s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.Notifications exited with status 1
+[11.401s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.403s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/winicon/redEye/install/local_setup.ps1'
+[11.410s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/winicon/redEye/install/_local_setup_util_ps1.py'
+[11.419s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/winicon/redEye/install/setup.ps1'
+[11.425s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/winicon/redEye/install/local_setup.sh'
+[11.430s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/winicon/redEye/install/_local_setup_util_sh.py'
+[11.433s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/winicon/redEye/install/setup.sh'
+[11.439s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/winicon/redEye/install/local_setup.bash'
+[11.443s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/winicon/redEye/install/setup.bash'
+[11.450s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/winicon/redEye/install/local_setup.zsh'
+[11.454s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/winicon/redEye/install/setup.zsh'

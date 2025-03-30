@@ -1,0 +1,96 @@
+[3.517s] Invoking command in '/home/winicon/redEye/build/robots_nav_contr': PYTHONPATH=/home/winicon/redEye/build/robots_nav_contr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/winicon/redEye/build/robots_nav_contr/build
+[4.709s] running develop
+[5.522s] Removing /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots-nav-contr.egg-link (link to .)
+[5.652s] Invoked command in '/home/winicon/redEye/build/robots_nav_contr' returned '0': PYTHONPATH=/home/winicon/redEye/build/robots_nav_contr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/winicon/redEye/build/robots_nav_contr/build
+[5.661s] Invoking command in '/home/winicon/redEye/src/RobotControl_ws/src/robots_nav_contr': PYTHONPATH=/home/winicon/redEye/build/robots_nav_contr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/robots_nav_contr build --build-base /home/winicon/redEye/build/robots_nav_contr/build install --record /home/winicon/redEye/build/robots_nav_contr/install.log --single-version-externally-managed install_data --force
+[6.807s] running egg_info
+[6.811s] writing ../../../../build/robots_nav_contr/robots_nav_contr.egg-info/PKG-INFO
+[6.812s] writing dependency_links to ../../../../build/robots_nav_contr/robots_nav_contr.egg-info/dependency_links.txt
+[6.813s] writing entry points to ../../../../build/robots_nav_contr/robots_nav_contr.egg-info/entry_points.txt
+[6.814s] writing requirements to ../../../../build/robots_nav_contr/robots_nav_contr.egg-info/requires.txt
+[6.815s] writing top-level names to ../../../../build/robots_nav_contr/robots_nav_contr.egg-info/top_level.txt
+[6.824s] reading manifest file '../../../../build/robots_nav_contr/robots_nav_contr.egg-info/SOURCES.txt'
+[6.830s] writing manifest file '../../../../build/robots_nav_contr/robots_nav_contr.egg-info/SOURCES.txt'
+[6.830s] running build
+[6.831s] running build_py
+[6.832s] creating /home/winicon/redEye/build/robots_nav_contr/build
+[6.833s] creating /home/winicon/redEye/build/robots_nav_contr/build/lib
+[6.834s] creating /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.834s] copying robots_nav_contr/arduinosensorsdata.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.835s] copying robots_nav_contr/redeye_nav_commands_receiver.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.837s] copying robots_nav_contr/nav_commands_receiver.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.838s] copying robots_nav_contr/move.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.840s] copying robots_nav_contr/raspberry_arduinoSerial.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.842s] copying robots_nav_contr/MainRoutine.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.843s] copying robots_nav_contr/keyPressModule.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.845s] copying robots_nav_contr/MainRoutine_bak.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.846s] copying robots_nav_contr/ultra_2.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.849s] copying robots_nav_contr/encoders.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.851s] copying robots_nav_contr/ObjectDetection.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.851s] copying robots_nav_contr/take_picture.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.852s] copying robots_nav_contr/blink.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.854s] copying robots_nav_contr/encoders copy.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.855s] copying robots_nav_contr/RobotMain.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.857s] copying robots_nav_contr/pinsValidation.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.858s] copying robots_nav_contr/gpiochecks.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.860s] copying robots_nav_contr/__init__.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.861s] copying robots_nav_contr/ultra.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.863s] copying robots_nav_contr/findline.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.865s] copying robots_nav_contr/robotsnavcontroller.py -> /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr
+[6.868s] running install
+[6.869s] running install_lib
+[6.873s] creating /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.873s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/arduinosensorsdata.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.874s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/redeye_nav_commands_receiver.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.875s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/nav_commands_receiver.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.876s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/move.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.876s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/raspberry_arduinoSerial.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.877s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/MainRoutine.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.878s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/keyPressModule.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.879s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/MainRoutine_bak.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.880s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/ultra_2.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.880s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/encoders.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.881s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/ObjectDetection.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.882s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/take_picture.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.883s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/blink.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.884s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/encoders copy.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.884s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/RobotMain.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.885s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/pinsValidation.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.886s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/gpiochecks.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.887s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/__init__.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.887s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/ultra.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.888s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/findline.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.889s] copying /home/winicon/redEye/build/robots_nav_contr/build/lib/robots_nav_contr/robotsnavcontroller.py -> /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr
+[6.892s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/arduinosensorsdata.py to arduinosensorsdata.cpython-310.pyc
+[6.895s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/redeye_nav_commands_receiver.py to redeye_nav_commands_receiver.cpython-310.pyc
+[6.898s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/nav_commands_receiver.py to nav_commands_receiver.cpython-310.pyc
+[6.900s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/move.py to move.cpython-310.pyc
+[6.904s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/raspberry_arduinoSerial.py to raspberry_arduinoSerial.cpython-310.pyc
+[6.906s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/MainRoutine.py to MainRoutine.cpython-310.pyc
+[6.909s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/keyPressModule.py to keyPressModule.cpython-310.pyc
+[6.910s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/MainRoutine_bak.py to MainRoutine_bak.cpython-310.pyc
+[6.913s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/ultra_2.py to ultra_2.cpython-310.pyc
+[6.915s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/encoders.py to encoders.cpython-310.pyc
+[6.917s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/ObjectDetection.py to ObjectDetection.cpython-310.pyc
+[6.918s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/take_picture.py to take_picture.cpython-310.pyc
+[6.920s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/blink.py to blink.cpython-310.pyc
+[6.921s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/encoders copy.py to encoders copy.cpython-310.pyc
+[6.923s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/RobotMain.py to RobotMain.cpython-310.pyc
+[6.925s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/pinsValidation.py to pinsValidation.cpython-310.pyc
+[6.927s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/gpiochecks.py to gpiochecks.cpython-310.pyc
+[6.929s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/__init__.py to __init__.cpython-310.pyc
+[6.930s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/ultra.py to ultra.cpython-310.pyc
+[6.932s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/findline.py to findline.cpython-310.pyc
+[6.934s] byte-compiling /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr/robotsnavcontroller.py to robotsnavcontroller.cpython-310.pyc
+[6.936s] running install_data
+[6.936s] copying resource/robots_nav_contr -> /home/winicon/redEye/install/robots_nav_contr/share/ament_index/resource_index/packages
+[6.937s] copying package.xml -> /home/winicon/redEye/install/robots_nav_contr/share/robots_nav_contr
+[6.937s] running install_egg_info
+[6.945s] Copying ../../../../build/robots_nav_contr/robots_nav_contr.egg-info to /home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages/robots_nav_contr-0.0.0-py3.10.egg-info
+[6.952s] running install_scripts
+[7.034s] Installing redeye_commands script to /home/winicon/redEye/install/robots_nav_contr/lib/robots_nav_contr
+[7.035s] Installing robot_command_receiver script to /home/winicon/redEye/install/robots_nav_contr/lib/robots_nav_contr
+[7.036s] Installing robots_nav_controller script to /home/winicon/redEye/install/robots_nav_contr/lib/robots_nav_contr
+[7.037s] Installing robots_serial_commands script to /home/winicon/redEye/install/robots_nav_contr/lib/robots_nav_contr
+[7.040s] writing list of installed files to '/home/winicon/redEye/build/robots_nav_contr/install.log'
+[7.164s] Invoked command in '/home/winicon/redEye/src/RobotControl_ws/src/robots_nav_contr' returned '0': PYTHONPATH=/home/winicon/redEye/build/robots_nav_contr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/winicon/redEye/install/robots_nav_contr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/robots_nav_contr build --build-base /home/winicon/redEye/build/robots_nav_contr/build install --record /home/winicon/redEye/build/robots_nav_contr/install.log --single-version-externally-managed install_data --force

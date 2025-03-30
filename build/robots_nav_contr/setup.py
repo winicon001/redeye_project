@@ -1,1 +1,0 @@
-/home/winicon/redEye/src/RobotControl_ws/src/robots_nav_contr/setup.py
