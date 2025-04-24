@@ -1,13 +1,6 @@
 package.xml
 setup.cfg
 setup.py
-../../../../build/robots_nav_contr/robots_nav_contr.egg-info/PKG-INFO
-../../../../build/robots_nav_contr/robots_nav_contr.egg-info/SOURCES.txt
-../../../../build/robots_nav_contr/robots_nav_contr.egg-info/dependency_links.txt
-../../../../build/robots_nav_contr/robots_nav_contr.egg-info/entry_points.txt
-../../../../build/robots_nav_contr/robots_nav_contr.egg-info/requires.txt
-../../../../build/robots_nav_contr/robots_nav_contr.egg-info/top_level.txt
-../../../../build/robots_nav_contr/robots_nav_contr.egg-info/zip-safe
 resource/robots_nav_contr
 robots_nav_contr/MainRoutine.py
 robots_nav_contr/MainRoutine_bak.py
@@ -30,6 +23,10 @@ robots_nav_contr/robotsnavcontroller.py
 robots_nav_contr/take_picture.py
 robots_nav_contr/ultra.py
 robots_nav_contr/ultra_2.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+robots_nav_contr.egg-info/PKG-INFO
+robots_nav_contr.egg-info/SOURCES.txt
+robots_nav_contr.egg-info/dependency_links.txt
+robots_nav_contr.egg-info/entry_points.txt
+robots_nav_contr.egg-info/requires.txt
+robots_nav_contr.egg-info/top_level.txt
+robots_nav_contr.egg-info/zip-safe
