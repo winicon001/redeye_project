@@ -1,0 +1,16 @@
+/home/winicon/redEye/install/robot_launch/share/robot_launch/launch/robot.launch.py
+/home/winicon/redEye/install/robot_launch/share/ament_index/resource_index/package_run_dependencies/robot_launch
+/home/winicon/redEye/install/robot_launch/share/ament_index/resource_index/parent_prefix_path/robot_launch
+/home/winicon/redEye/install/robot_launch/share/robot_launch/environment/ament_prefix_path.sh
+/home/winicon/redEye/install/robot_launch/share/robot_launch/environment/ament_prefix_path.dsv
+/home/winicon/redEye/install/robot_launch/share/robot_launch/environment/path.sh
+/home/winicon/redEye/install/robot_launch/share/robot_launch/environment/path.dsv
+/home/winicon/redEye/install/robot_launch/share/robot_launch/local_setup.bash
+/home/winicon/redEye/install/robot_launch/share/robot_launch/local_setup.sh
+/home/winicon/redEye/install/robot_launch/share/robot_launch/local_setup.zsh
+/home/winicon/redEye/install/robot_launch/share/robot_launch/local_setup.dsv
+/home/winicon/redEye/install/robot_launch/share/robot_launch/package.dsv
+/home/winicon/redEye/install/robot_launch/share/ament_index/resource_index/packages/robot_launch
+/home/winicon/redEye/install/robot_launch/share/robot_launch/cmake/robot_launchConfig.cmake
+/home/winicon/redEye/install/robot_launch/share/robot_launch/cmake/robot_launchConfig-version.cmake
+/home/winicon/redEye/install/robot_launch/share/robot_launch/package.xml

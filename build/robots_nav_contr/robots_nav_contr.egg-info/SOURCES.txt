@@ -2,7 +2,9 @@ package.xml
 setup.cfg
 setup.py
 resource/robots_nav_contr
+robots_nav_contr/Datalog.py
 robots_nav_contr/MainRoutine.py
+robots_nav_contr/MainRoutine_arc.py
 robots_nav_contr/MainRoutine_bak.py
 robots_nav_contr/ObjectDetection.py
 robots_nav_contr/RobotMain.py
@@ -11,6 +13,7 @@ robots_nav_contr/arduinosensorsdata.py
 robots_nav_contr/blink.py
 robots_nav_contr/encoders copy.py
 robots_nav_contr/encoders.py
+robots_nav_contr/exectionRoutine.py
 robots_nav_contr/findline.py
 robots_nav_contr/gpiochecks.py
 robots_nav_contr/keyPressModule.py
